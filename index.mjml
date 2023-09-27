@@ -1,0 +1,38 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Raleway"
+                href="https://fonts.googleapis.com/css?family=Raleway" />
+        <mj-preview>Hello MJML</mj-preview>
+        <mj-title>Hello MJML</mj-title>
+        <mj-attributes>
+             <mj-text padding="0" />
+             <mj-all font-family="Arial" />
+             <mj-class name="mjclass" color="green" font-size="30px" />
+        </mj-attributes>
+        <mj-style inline="inline">
+
+        </mj-style>
+        <mj-breakpoint width="600px" />
+    </mj-head>
+    <mj-body>
+
+        <!-- Company Header -->
+        <mj-section background-color="#f0f0f0"></mj-section>
+
+        <!-- Image Header -->
+        <mj-section background-color="#f0f0f0"></mj-section>
+
+        <!-- Introduction Text -->
+        <mj-section background-color="#fafafa"></mj-section>
+
+        <!-- 2 columns section -->
+        <mj-section background-color="white"></mj-section>
+
+        <!-- Icons -->
+        <mj-section background-color="#fbfbfb"></mj-section>
+
+        <!-- Social icons -->
+        <mj-section background-color="#f0f0f0"></mj-section>
+
+    </mj-body>
+</mjml>
