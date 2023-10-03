@@ -1,38 +1,83 @@
 <mjml>
     <mj-head>
-        <mj-font name="Raleway"
-                href="https://fonts.googleapis.com/css?family=Raleway" />
+        <mj-font name="Kanit"
+                href="https://fonts.googleapis.com/css2?family=Kanit" />
         <mj-preview>Hello MJML</mj-preview>
         <mj-title>Hello MJML</mj-title>
         <mj-attributes>
              <mj-text padding="0" />
-             <mj-all font-family="Arial" />
+             <mj-all font-family="Kanit" />
              <mj-class name="mjclass" color="green" font-size="30px" />
         </mj-attributes>
         <mj-style inline="inline">
+            .align-to-middle div {
+                text-align: center !important;
+            }
 
+            .padding-to-sides {
+                padding-right: 10px !important;
+                padding-right: 10px !important;
+            }
         </mj-style>
         <mj-breakpoint width="600px" />
     </mj-head>
-    <mj-body>
+    <mj-body width="640px">
 
-        <!-- Company Header -->
-        <mj-section background-color="#f0f0f0"></mj-section>
+        <mj-wrapper background-color="#ffffff" padding="0">
+            <!-- Company header logo : BEGIN -->
+            <mj-section background-color="#ffffff">
+                <mj-column>
+                    <mj-image width="100px" src="img/logo.png" padding="0"/>
+                </mj-column>
+            </mj-section>
+            <!-- Company header logo : END -->
 
-        <!-- Image Header -->
-        <mj-section background-color="#f0f0f0"></mj-section>
+            <!-- Company navigation : BEGIN -->
+            <mj-section background-color="linear-gradient(to right, rgba(137, 196, 224, 1) 0%, rgba(2, 48, 71, 1) 100%)"
+            padding-top="0" padding-bottom="20px" padding-right="10px" padding-left="10px">
+                <mj-column css-class="align-to-middle">
+                    <mj-text color="#ffffff">
+                        <mj-raw>
+                            <img src="img/phone-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
+                            height: auto; margin: 10px 0 0; padding-top: 10px;">
+                        </mj-raw>
+                            Smartphones
+                        </mj-text>
+                </mj-column>
 
-        <!-- Introduction Text -->
-        <mj-section background-color="#fafafa"></mj-section>
+                <mj-column css-class="align-to-middle">
+                    <mj-text color="#ffffff">
+                        <mj-raw>
+                            <img src="img//tv-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
+                            height: auto; margin: 10px 0 0; padding-top: 10px;">
+                        </mj-raw>
+                            Smartphones
+                        </mj-text>
+                </mj-column>
 
-        <!-- 2 columns section -->
-        <mj-section background-color="white"></mj-section>
+                <mj-column css-class="align-to-middle">
+                    <mj-text color="#ffffff">
+                        <mj-raw>
+                            <img src="img/laptop-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
+                            height: auto; margin: 10px 0 0; padding-top: 10px;">
+                        </mj-raw>
+                            Smartphones
+                        </mj-text>
+                </mj-column>
 
-        <!-- Icons -->
-        <mj-section background-color="#fbfbfb"></mj-section>
+                <mj-column css-class="align-to-middle">
+                    <mj-text color="#ffffff">
+                        <mj-raw>
+                            <img src="img/smartwatches-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
+                            height: auto; margin: 10px 0 0; padding-top: 10px;">
+                        </mj-raw>
+                            Smartphones
+                        </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Company header logo : END -->
+        </mj-wrapper>
 
-        <!-- Social icons -->
-        <mj-section background-color="#f0f0f0"></mj-section>
 
     </mj-body>
 </mjml>

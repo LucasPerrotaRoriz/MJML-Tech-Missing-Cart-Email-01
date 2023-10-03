@@ -1,1 +1,46 @@
 https://stripo.email/en/demo/?template=749516&project=394073&guid=914da996-49b8-45bb-b89c-d6fdf13526f1
+
+
+
+<mj-section background-color="linear-gradient(to right, rgba(137, 196, 224, 1) 0%, rgba(2, 48, 71, 1) 100%)"
+            padding-top="0" padding-bottom="20px" padding-right="10px" padding-left="10px">
+                <mj-column css-class="align-to-middle">
+                    <mj-text color="#ffffff">
+                        <mj-raw>
+                            <img src="img/phone-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
+                            height: auto; margin: 10px 0 0; padding-top: 10px;">
+                        </mj-raw>
+                            Smartphones
+                        </mj-text>
+                </mj-column>
+
+                <mj-column css-class="align-to-middle">
+                    <mj-text color="#ffffff">
+                        <mj-raw>
+                            <img src="img//tv-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
+                            height: auto; margin: 10px 0 0; padding-top: 10px;">
+                        </mj-raw>
+                            Smartphones
+                        </mj-text>
+                </mj-column>
+
+                <mj-column css-class="align-to-middle">
+                    <mj-text color="#ffffff">
+                        <mj-raw>
+                            <img src="img/laptop-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
+                            height: auto; margin: 10px 0 0; padding-top: 10px;">
+                        </mj-raw>
+                            Smartphones
+                        </mj-text>
+                </mj-column>
+
+                <mj-column css-class="align-to-middle">
+                    <mj-text color="#ffffff">
+                        <mj-raw>
+                            <img src="img/smartwatches-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
+                            height: auto; margin: 10px 0 0; padding-top: 10px;">
+                        </mj-raw>
+                            Smartphones
+                        </mj-text>
+                </mj-column>
+            </mj-section>
