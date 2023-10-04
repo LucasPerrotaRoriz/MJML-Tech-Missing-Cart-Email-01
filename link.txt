@@ -2,45 +2,86 @@ https://stripo.email/en/demo/?template=749516&project=394073&guid=914da996-49b8-
 
 
 
-<mj-section background-color="linear-gradient(to right, rgba(137, 196, 224, 1) 0%, rgba(2, 48, 71, 1) 100%)"
-            padding-top="0" padding-bottom="20px" padding-right="10px" padding-left="10px">
-                <mj-column css-class="align-to-middle">
-                    <mj-text color="#ffffff">
-                        <mj-raw>
-                            <img src="img/phone-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
-                            height: auto; margin: 10px 0 0; padding-top: 10px;">
-                        </mj-raw>
-                            Smartphones
-                        </mj-text>
+<mj-section>
+                <mj-column>
+                    <mj-text font-size="36px" font-weight="bold" color="#023047">
+                        Your shopping bag
+                    </mj-text>
                 </mj-column>
+            </mj-section>
 
-                <mj-column css-class="align-to-middle">
-                    <mj-text color="#ffffff">
-                        <mj-raw>
-                            <img src="img//tv-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
-                            height: auto; margin: 10px 0 0; padding-top: 10px;">
-                        </mj-raw>
-                            Smartphones
-                        </mj-text>
-                </mj-column>
+            <mj-section padding="0">
+                <mj-group css-class="grey-border">
+                    <mj-column>
+                        <mj-image width="128px" src="img/headphones.png" padding="0"/>
+                    </mj-column>
 
-                <mj-column css-class="align-to-middle">
-                    <mj-text color="#ffffff">
-                        <mj-raw>
-                            <img src="img/laptop-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
-                            height: auto; margin: 10px 0 0; padding-top: 10px;">
-                        </mj-raw>
-                            Smartphones
+                    <mj-column>
+                        <mj-text font-family="Arial" font-size="14px" line-height="20px" color="#333333" padding-bottom="10px">
+                            Headphones JBL FREE II (Black)
                         </mj-text>
-                </mj-column>
+                        <mj-text font-family="Arial" font-size="14px" color="#333333" padding-bottom="10px">
+                            QTY: <mj-raw><span style="font-weight: bold;">2</span></mj-raw>
+                        </mj-text>
+                        <mj-text font-size="20px" color="#023047">
+                            $70
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+                
+                <mj-group css-class="grey-border">
+                    <mj-column>
+                        <mj-image width="128px" src="img/galaxy.png" padding="0"/>
+                    </mj-column>
 
-                <mj-column css-class="align-to-middle">
-                    <mj-text color="#ffffff">
-                        <mj-raw>
-                            <img src="img/smartwatches-icon.png" width="27px" height="auto" border="0" style="max-width: 20px; width: 100%; 
-                            height: auto; margin: 10px 0 0; padding-top: 10px;">
-                        </mj-raw>
-                            Smartphones
+                    <mj-column>
+                        <mj-text font-family="Arial" font-size="14px" line-height="20px" color="#333333" padding-bottom="10px">
+                            Samsung Galaxy A02s 3/32GB
                         </mj-text>
-                </mj-column>
+                        <mj-text font-family="Arial" font-size="14px" color="#333333" padding-bottom="10px">
+                            QTY: <mj-raw><span style="font-weight: bold;">1</span></mj-raw>
+                        </mj-text>
+                        <mj-text font-size="20px" color="#023047">
+                            $150
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-section padding="0">
+                <mj-group css-class="grey-border">
+                    <mj-column>
+                        <mj-image width="128px" src="img/apple-watch.png" padding="0"/>
+                    </mj-column>
+
+                    <mj-column>
+                        <mj-text font-family="Arial" font-size="14px" line-height="20px" color="#333333" padding-bottom="10px">
+                            Apple Watch SE 40mm Space Gray Aluminum
+                        </mj-text>
+                        <mj-text font-family="Arial" font-size="14px" color="#333333" padding-bottom="10px">
+                            QTY: <mj-raw><span style="font-weight: bold;">1</span></mj-raw>
+                        </mj-text>
+                        <mj-text font-size="20px" color="#023047">
+                            $40
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+                
+                <mj-group css-class="grey-border">
+                    <mj-column>
+                        <mj-image width="128px" src="img/macbook.png" padding="0"/>
+                    </mj-column>
+
+                    <mj-column>
+                        <mj-text font-family="Arial" font-size="14px" line-height="20px" color="#333333" padding-bottom="10px">
+                            Apple MacBook Pro M1 Chip 13" 8/256 Touch Bar
+                        </mj-text>
+                        <mj-text font-family="Arial" font-size="14px" color="#333333" padding-bottom="10px">
+                            QTY: <mj-raw><span style="font-weight: bold;">1</span></mj-raw>
+                        </mj-text>
+                        <mj-text font-size="20px" color="#023047">
+                            $2000
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
             </mj-section>
